@@ -5,19 +5,19 @@
 }
 
 .hero{
-    width:90%;
+    widows: 100px;%;
     margin: auto;
 }
 .navbar{
-    margin: 30px auto;
+    margin: 10px auto;
     display: flex;
-    align-items: center;
+    align-items: right;
 
 }
 
 ul{
     flex:1;
-    text-align: right;
+    text-align: center;
 
 }
 ul li{
@@ -40,6 +40,19 @@ ul li a{
 .navbar-icons{
     margin-left: 40px;
 }
+
+.col-sm-4{
+    flex:1;
+    text-align: right;
+}
+
+.col-md-12{
+    flex:1;
+    text-align: center;
+}
+
+
+
 
 @media (min-width: 576px) { 
     body{
