@@ -40,32 +40,26 @@ ul li a{
 .navbar-icons{
     margin-left: 40px;
 }
-// Small devices (landscape phones, 576px and up)
+
 @media (min-width: 576px) { 
     body{
         background-color:white;
 }
 
-// Medium devices (tablets, 768px and up)
+ 
 @media (min-width: 768px) { 
     body{
     background-color:white;
 }
 
-// Large devices (desktops, 992px and up)
+ 
 @media (min-width: 992px) {
      body{
     background-color:white;
 }
 
-// Extra large devices (large desktops, 1200px and up)
+ 
 @media (min-width: 1200px) {
-     body{
+    
     background-color:white;
-     }
-.footer{
-        font-size:10px;
-    }     
-.connect{
-        padding-left: 50%;
     }
