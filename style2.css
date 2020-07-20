@@ -4,20 +4,13 @@
     font-family: 'Dosis', sans-serif;
 }
 .hero{
-    width:90%;
+    widows: 100%;
     margin: auto;
-
-}
-.navbar{
-    margin: 30px auto;
-    display: flex;
-    align-items: center;
-
 }
 
 ul{
     flex:1;
-    text-align: right;
+    text-align: left;
 
 }
 ul li{
@@ -32,49 +25,17 @@ ul li a{
     padding: 0 10px;
     position: relative;
 }
-.navbar-icons img{
-    height: 25px;
-    margin-left: 40px;
-    cursor: pointer;
-}
-.navbar-icons{
-    margin-left: 40px;
-}
-.row{
-    font-size:30px; 
-}
-..col-sm-4{
+
+
+.col-sm-4{
     flex:1;
     text-align: right;
 }
+
 .col-md-12{
     flex:1;
-    text-align: left;
-    font-size: 15px;
+    text-align: center;
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-    body{
-        background-color:white;
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    body{
-    background-color:white;
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-     body{
-    background-color:white;
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-     body{
-    background-color:white;
- }
 
 
